@@ -13,7 +13,7 @@ version = "0.1.0"
 crate-type = ["lib", "staticlib"]
 
 [features]
-default = ["multicore"]
+default = []
 multicore = ["bellman/multicore"]
 wasm = ["bellman/wasm"]
  
